@@ -3,7 +3,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
 from typing import List, Optional
 
-class DocumentIndexer:
+class Indexer:
     
     @staticmethod
     def create_new_db(documents: List[Document], embedding_model: str = "text-embedding-3-small", persist_directory: str = "./vector_db") -> Chroma:
@@ -19,7 +19,7 @@ class DocumentIndexer:
     @staticmethod
     def add_documents_to_db(documents: List[Document], vector_db: Optional[Chroma] = None, path: Optional[str] = None) -> Chroma:
         if vector_db is None and path is not None:
-            vector_db = DocumentIndexer.load_db(path)
+            vector_db = Indexer.load_db(path)
         elif vector_db is None and path is None:
             raise ValueError("Either vector_db or path must be provided")
         
