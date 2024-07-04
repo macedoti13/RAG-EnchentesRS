@@ -13,7 +13,16 @@ list_urls = [
     "https://agenciabrasil.ebc.com.br/geral/noticia/2024-05/inundacao-em-porto-alegre-foi-falta-de-manutencao-dizem-especialistas",
     "https://www.observatoriodasmetropoles.net.br/nucleo-porto-alegre-analisa-os-impactos-das-enchentes-na-populacao-pobre-e-negra-do-rio-grande-do-sul/",
     "https://gauchazh.clicrbs.com.br/porto-alegre/noticia/2024/05/numero-de-abrigos-para-atingidos-pela-enchente-cai-em-porto-alegre-clwdpjnrp00vg0148idb5123y.html",
-    "https://gauchazh.clicrbs.com.br/porto-alegre/noticia/2024/05/diversos-bairros-de-porto-alegre-registram-inundacao-dmae-fala-em-chuva-alem-do-que-os-modelos-previam-clwjbt6rh00b1014xqkk45ji9.html#:~:text=Entre%20os%20registros%20de%20aumento,São%20Geraldo%2C%20Restinga%20e%20Floresta."
+    "https://gauchazh.clicrbs.com.br/porto-alegre/noticia/2024/05/diversos-bairros-de-porto-alegre-registram-inundacao-dmae-fala-em-chuva-alem-do-que-os-modelos-previam-clwjbt6rh00b1014xqkk45ji9.html#:~:text=Entre%20os%20registros%20de%20aumento,São%20Geraldo%2C%20Restinga%20e%20Floresta.",
+    "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2024/05/29/um-mes-de-enchentes-no-rs-veja-cronologia-do-desastre.ghtml",
+    "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2024/07/02/enchentes-no-rs-total-de-mortos-e-desaparecidos.ghtml",
+    "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2024/07/04/governo-do-rs-inaugura-primeira-cidade-provisoria-para-receber-desabrigados-por-enchentes.ghtml",
+    "https://pt.wikipedia.org/wiki/Enchentes_no_Rio_Grande_do_Sul_em_2024",
+    "https://www.cnnbrasil.com.br/nacional/chuvas-no-rs-quase-80-das-cidades-gauchas-foram-afetadas-veja-lista/",
+    "https://www.infomoney.com.br/economia/producao-industrial-cai-09-em-maio-com-influencia-de-enchentes-no-sul-diz-ibge/",
+    "https://www1.folha.uol.com.br/mercado/2024/07/enchentes-no-rs-afetaram-ate-92-dos-empregos-em-cidades-mais-destruidas-diz-ipea.shtml",
+    "https://cbn.globo.com/podcasts/cbn-especial/noticia/2024/07/04/porto-alegre-tem-mais-de-45-mil-desempregados-apos-as-chuvas.ghtml"
+    
 ]
 
 rag = None

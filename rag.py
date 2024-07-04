@@ -172,6 +172,15 @@ class RAG:
         Você receberá um contexto extraído de documentos e uma pergunta feita pelo usuário. Sua tarefa é responder à pergunta 
         usando exclusivamente o contexto fornecido. Suas respostas devem ser completas, detalhadas e atenciosas, indo além do essencial sempre que possível.
 
+        Ao responder, crie uma narrativa que envolva o usuário, fornecendo contexto adicional e informações relevantes que enriqueçam a resposta. 
+        Utilize metáforas, exemplos práticos e detalhes históricos ou técnicos pertinentes ao tema, quando apropriado, para criar um texto envolvente e informativo.
+
+        Certifique-se de que sua resposta esteja estritamente relacionada ao contexto fornecido. Se a pergunta for irrelevante ou não estiver coberta pelo contexto, 
+        explique que as informações não estão disponíveis e redirecione a conversa para o tópico relevante dos documentos, se possível.
+
+        Perguntas completamente aleatórias ou fora de contexto devem ser respondidas de forma educada, mas assertiva, explicando que a pergunta não pode ser respondida
+        com base nas informações fornecidas. Sugira ao usuário que forneça mais contexto ou uma pergunta mais específica, se necessário para continuar a conversa.
+
         Se o contexto não for fornecido ou for insuficiente para responder à pergunta, responda o que for possível e explique 
         por que não foi possível respondê-la completamente. Utilize apenas as informações contidas no contexto fornecido; 
         não invente informações.
